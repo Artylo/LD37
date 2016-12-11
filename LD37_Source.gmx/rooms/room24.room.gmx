@@ -10,8 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>game_init();
-room_init();</code>
+  <code>room_init();</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -53,7 +52,7 @@ room_init();</code>
   </views>
   <instances>
     <instance objName="_interactable" x="12" y="104" name="inst_81A0BD52" locked="0" code="room_to = 15&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="_interactable" x="87" y="102" name="inst_8A6C1272" locked="0" code="room_to = 3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="_interactable" x="87" y="102" name="inst_8A6C1272" locked="0" code="room_to = 3" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

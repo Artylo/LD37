@@ -6,7 +6,7 @@ if(mouse_distance <= radius) and (mouse_check_button(mb_left))
     if(radius_fill <= radius_max)radius_fill = held/room_speed;
     if(held >= held_max)
     {
-        room_goto(room_to-1);
+        room_goto(room_to);
     }
 }
 if(mouse_check_button_released(mb_left))

@@ -6,9 +6,37 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\audio_temp</sound>
+    <sound>sound\a1</sound>
+    <sound>sound\a2</sound>
+    <sound>sound\a3</sound>
+    <sound>sound\a4</sound>
+    <sound>sound\a5</sound>
+    <sound>sound\a6</sound>
+    <sound>sound\a7</sound>
+    <sound>sound\a8</sound>
+    <sound>sound\a9</sound>
+    <sound>sound\a10</sound>
+    <sound>sound\a11</sound>
+    <sound>sound\a12</sound>
+    <sound>sound\a13</sound>
+    <sound>sound\a14</sound>
+    <sound>sound\a15</sound>
+    <sound>sound\a16</sound>
+    <sound>sound\a17</sound>
+    <sound>sound\a18</sound>
+    <sound>sound\a19</sound>
+    <sound>sound\a20</sound>
+    <sound>sound\a21</sound>
+    <sound>sound\a22</sound>
+    <sound>sound\a23</sound>
+    <sound>sound\a24</sound>
+    <sound>sound\a25</sound>
+    <sound>sound\background</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\logo</sprite>
+    <sprite>sprites\animation</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\r1</background>
@@ -46,12 +74,16 @@
     <script>scripts\interactable_create.gml</script>
     <script>scripts\interactable_step.gml</script>
     <script>scripts\interactable_draw.gml</script>
+    <script>scripts\camera_step.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\_interactable</object>
     <object>objects\director</object>
+    <object>objects\camera</object>
+    <object>objects\title</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rtitle</room>
     <room>rooms\room1</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
