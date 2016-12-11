@@ -4,12 +4,79 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\audio_temp</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\sprite1</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\r1</background>
+    <background>background\r2</background>
+    <background>background\r3</background>
+    <background>background\r4</background>
+    <background>background\r5</background>
+    <background>background\r6</background>
+    <background>background\r7</background>
+    <background>background\r8</background>
+    <background>background\r9</background>
+    <background>background\r10</background>
+    <background>background\r11</background>
+    <background>background\r12</background>
+    <background>background\r13</background>
+    <background>background\r14</background>
+    <background>background\r15</background>
+    <background>background\r16</background>
+    <background>background\r17</background>
+    <background>background\r18</background>
+    <background>background\r19</background>
+    <background>background\r20</background>
+    <background>background\r21</background>
+    <background>background\r22</background>
+    <background>background\r23</background>
+    <background>background\r24</background>
+    <background>background\r25</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\room_init.gml</script>
+    <script>scripts\game_init.gml</script>
+    <script>scripts\director_create.gml</script>
+    <script>scripts\director_step.gml</script>
+    <script>scripts\interactable_create.gml</script>
+    <script>scripts\interactable_step.gml</script>
+    <script>scripts\interactable_draw.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\_interactable</object>
+    <object>objects\director</object>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\game</room>
+    <room>rooms\room1</room>
+    <room>rooms\room2</room>
+    <room>rooms\room3</room>
+    <room>rooms\room4</room>
+    <room>rooms\room5</room>
+    <room>rooms\room6</room>
+    <room>rooms\room7</room>
+    <room>rooms\room8</room>
+    <room>rooms\room9</room>
+    <room>rooms\room10</room>
+    <room>rooms\room11</room>
+    <room>rooms\room12</room>
+    <room>rooms\room13</room>
+    <room>rooms\room14</room>
+    <room>rooms\room15</room>
+    <room>rooms\room16</room>
+    <room>rooms\room17</room>
+    <room>rooms\room18</room>
+    <room>rooms\room19</room>
+    <room>rooms\room20</room>
+    <room>rooms\room21</room>
+    <room>rooms\room22</room>
+    <room>rooms\room23</room>
+    <room>rooms\room24</room>
+    <room>rooms\room25</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
